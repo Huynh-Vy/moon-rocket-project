@@ -42,11 +42,11 @@ This project is a web application built using Next.js for the frontend and Node.
 
 ### Installation
 
-1. Clone the repository
+1. **Clone the repository**
 - git clone https://github.com/your-repo/moon-rocket.git
 - cd moon-rocket
 
-2. Install dependencies
+2. **Install dependencies**
 **Backend**
 - express
 - body-parser
@@ -60,7 +60,7 @@ This project is a web application built using Next.js for the frontend and Node.
 - react-dom
 - axios
 
-3. Run the app
+3. **Run the app**
 **Create and seed the database**
 - cd api
 - node seed/generateData.js
