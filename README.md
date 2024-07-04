@@ -63,6 +63,7 @@ This project is a web application built using Next.js for the frontend and Node.
 - axios
 
 3. **Run the app**
+
 **Create and seed the database**
 - cd api
 - node seed/generateData.js
