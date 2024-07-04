@@ -19,40 +19,12 @@ This project is a web application built using Next.js for the frontend and Node.
 ## Project Structure
 
 ### Frontend (Next.js)
-Frontend/
-├── pages/
-│ ├── index.js # Home page
-│ ├── _app.js 
-│ └── category/
-│ └── [categoryId].js # Dynamic route for categories
-├── styles/ 
-│ └── Category.module.css # css styles for Category module 
-│ └── Home.module.css # css styles for Home module 
-│ └── styles.css 
-├── .env # Environment variables
-├── package-lock.json
-├── package.json
+
+![frontend](https://github.com/Huynh-Vy/moon-rocket-project/assets/87691625/1244aadc-c1ec-4c2a-8f10-cd408ffc5564)
 
 ### Backend (Node.js with Express)
-api/
-├── config/
-│ └── config.js # configuration
-│ └── database.js # Database configuration
-├── controllers/
-│ └── categoryController.js # Controller logic for categories
-├── models/
-│ ├── categories.js # Category model
-│ ├── games.js # Game model
-│ └── index.js # Sequelize model index
-├── routes/
-│ └── categoryRoutes.js # Route definitions for categories
-├── seed/
-│ ├── generateData.js # Script to generate sample data, and create data.json
-│ ├── data.json # Seed data
-│ ├── createTables.js # Script to create tables
-│ └── seedDatabase.js # Script to seed the database
-├── .env # Environment variables
-└── app.js # Main application file
+
+![backend](https://github.com/Huynh-Vy/moon-rocket-project/assets/87691625/5bf2aac1-fed3-47c1-8c1e-a2b03e438416)
 
 
 ## How to Run the Application
@@ -64,44 +36,44 @@ api/
 - PostgreSQL (v12.x or higher)
 
 ### Environment Variables
-DATABASE_URL=DATABASE_URL_CONNECT_TO_PGADMIN
-PORT=PORT_RUNNING_SERVER_APP
-NEXT_PUBLIC_API_URL=URL_CONNECT_TO_BACKEND
+- DATABASE_URL=DATABASE_URL_CONNECT_TO_PGADMIN
+- PORT=PORT_RUNNING_SERVER_APP
+- NEXT_PUBLIC_API_URL=URL_CONNECT_TO_BACKEND
 
 ### Installation
 
 1. **Clone the repository**
-git clone https://github.com/your-repo/moon-rocket.git
-cd moon-rocket
+- git clone https://github.com/your-repo/moon-rocket.git
+- cd moon-rocket
 
 2. **Install dependencies**
-- Backend
-express
-body-parser
-cors
-dotenv
-sequelize
+**Backend**
+- express
+- body-parser
+- cors
+- dotenv
+- sequelize
 
--Frontend
-next
-react
-react-dom
-axios
+**Frontend**
+- next
+- react
+- react-dom
+- axios
 
 3. **Run the app**
-- Create and seed the database
-cd api
-node seed/generateData.js
-node createTables.js
-node seed/seedDatabase.js
+**Create and seed the database**
+- cd api
+- node seed/generateData.js
+- node createTables.js
+- node seed/seedDatabase.js
 
-- Run backend app
-cd api
-npm run dev
+**Run backend app**
+- cd api
+- npm run dev
 
-- Run frontend app
-cd frontend
-npm run dev
+**Run frontend app**
+- cd frontend
+- npm run dev
 
-- Access the app on browser
-http://localhost:3000
+**Access the app on browser**
+- http://localhost:3000
