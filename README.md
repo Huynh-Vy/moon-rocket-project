@@ -44,7 +44,7 @@ This project is a web application built using Next.js for the frontend and Node.
 
 **Clone the repository**
    
-- git clone [https://github.com/Huynh-Vy/moon-rocket-project.git]
+- git clone https://github.com/Huynh-Vy/moon-rocket-project.git
 - cd moon-rocket
 
 **Install dependencies**
