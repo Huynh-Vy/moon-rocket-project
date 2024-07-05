@@ -2,6 +2,9 @@
 
 This project is a web application built using Next.js for the frontend and Node.js with Express for the backend. The application connects to a PostgreSQL database to manage and display data.
 
+## App Demo Link
+- http://54.162.255.96:3000/
+
 ## Technologies Used
 
 ### Frontend:
