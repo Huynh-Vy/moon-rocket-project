@@ -5,6 +5,7 @@ This project is a web application built using Next.js for the frontend and Node.
 ## App Demo Link
 - http://54.162.255.96:3000/
 
+
 ## Technologies Used
 
 ### Frontend:
